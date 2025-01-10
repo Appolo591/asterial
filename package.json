@@ -1,0 +1,15 @@
+{
+  "name": "asterial",
+  "version": "1.0.0",
+  "description": "tp asterial",
+  "main": "index.js",
+  "devDependencies": {
+    "sass":"1.82.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass -c": "sass --watch ./webfiles/css/scss/intro.scss ./webfiles/css/style.css"
+  },
+  "author": "paul lom",
+  "license": "MIT"
+}

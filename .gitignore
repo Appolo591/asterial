@@ -1,0 +1,5 @@
+# les fichiers ne seront pas versionnés sur github
+
+/node_modules
+.package-lock.json
+.fig

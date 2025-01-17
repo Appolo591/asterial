@@ -3,6 +3,50 @@
     margin: 0;
 }
 
+
 header{
-    background-color: rgb(127, 176, 255);
+    nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        div:first-of-type{
+            display: flex;
+            
+            width: 80%;
+            justify-content: space-between;
+            width: 80%;
+            height: 68px;
+            align-items: center;
+            span{
+                font-size:xx-large;
+                color: #2E4480;
+            }
+        }
+        ul:first-of-type{
+            color: #1E1E1E;
+            display: flex;
+            list-style: none;
+            li{
+                padding: 7px;
+            }
+        }
+    }
+    p{
+        position: absolute; 
+        
+        top: 400px;
+        text-align: center;
+        width: 100%;
+        max-height: 112px;
+        color: #FFFFFF;
+    }
+    #scroll-down{
+        position: relative;
+        width: fit-content;
+        bottom: 50px;
+        margin-left: 45%;
+    }
+    #scroll-down:hover{
+        background-color:rgb(223, 134, 217);
+    }
 }

@@ -1,0 +1,43 @@
+footer{
+    background-color: #3C5DA8;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 284px;
+    #principal-footer{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 224px;
+        margin: 60px auto;
+        justify-content: space-between;
+        div:first-of-type{
+            max-width: 300px;
+            max-height: 110px;
+        }
+        .titre{
+            width: max-content;
+        h2{
+            text-transform: capitalize;
+            font-size: larger;
+            color: brown; 
+        }
+        }    
+        ul{
+            li{
+            
+               img{
+                    height: 20px;
+                } 
+            }   
+        }
+    }
+    ul{
+        list-style: none;  
+    }
+    p{
+        text-align: center;
+        
+    }
+}

@@ -41,12 +41,11 @@ header{
         background-image: none;
     }
     #background-img{
-        background-image: url("/src/img/Background-Picture.png");
         height: 700px;
     }
     h1{
-        //position: absolute; 
-        //top: 340px;
+        position: absolute; 
+        top: 340px;
         text-align: center;
         max-width: 1200px;
         max-height: 156px;
@@ -54,20 +53,18 @@ header{
         font-family : 'Arial Rounded MT Bold', Arial, sans-serif;
         font-weight: bold;
         font-size: 2.7em;
-        line-height: normal;
-        padding: 235px 50px;
+        padding-left: 95px;
     }
     #scroll-down{
-        //position: relative;
-        display: inline-block;
+        position: relative;
         width: fit-content;
-        margin-bottom: -50px;
         margin-left: 50%;
         color: #FFFFFF;
         font-family : 'Arial Rounded MT Bold', Arial, sans-serif;
         font-weight: bolder;
         font-size: xx-large;
         text-decoration: none; 
+        bottom: 100px;
     }
     #scroll-down:hover{
         cursor: pointer;

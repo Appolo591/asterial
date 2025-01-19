@@ -53,6 +53,14 @@ footer{
             }   
         }
     }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: brown;
+        font-weight: bolder;
+    }
     ul{
         list-style: none;  
     }
